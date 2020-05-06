@@ -21,3 +21,8 @@ Converting integer to float
 a = 2
 a = float(a)
 print (a)
+Converting integer to sting
+b = 3
+b = str(b)
+print (b)
+
