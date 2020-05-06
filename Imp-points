@@ -6,3 +6,18 @@ hello
 there
 
 '''
+ 
+2. Variables and string
+
+e = 2 This is variable
+e = "2" This is string
+
+to know variable type
+
+print(type(e))
+
+3. Type casting 
+Converting integer to float
+a = 2
+a = float(a)
+print (a)
