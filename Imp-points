@@ -6,6 +6,7 @@ hello
 there
 
 '''
+ ----------------
  
 2. Variables and string
 
@@ -15,6 +16,8 @@ e = "2" This is string
 to know variable type
 
 print(type(e))
+
+-----------
 
 3. Type casting 
 Converting integer to float
@@ -26,3 +29,44 @@ b = 3
 b = str(b)
 print (b)
 
+---------------
+
+4. Print multiple lines
+
+name = ''' Hello 
+
+I am Mayur '''
+
+print(name)
+
+--------------------
+
+5 . Print a perticular character like a array
+
+
+name = ''' Hello 
+
+I am Mayur '''
+
+print(name[1])
+
+------------------
+6. Remove space from string using strip()
+name = "   mayur   "
+print (name.strip())
+
+----------
+
+7. Know length of string
+name = "Mayur"
+print(len(name))
+
+--------------
+8. Convert string in upper case or lower case
+name = "Mayur"
+var = name.upper()
+print (var)
+
+name = "Mayur"
+var = name.lower()
+print (var)
