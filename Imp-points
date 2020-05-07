@@ -117,3 +117,17 @@ print(dictMayur["Name"])
 dictMayur["Age"] = 25
 
 print(dictMayur)
+
+
+15. If else and take input from user
+
+a = input("Enter the Number/n")
+
+if(a==10):
+    print("you have entered 10")
+
+elif(a==20):
+    print("You have entered 20")
+
+else:
+  print("Enter Number again")
