@@ -1,3 +1,5 @@
+Refrence https://codewithharry.com/videos/learn-python-in-one-video-in-hindi-2019
+
 1. For Multiline comments
 
 '''
@@ -70,12 +72,12 @@ print (var)
 name = "Mayur"
 var = name.lower()
 print (var)
-
+--------------
 9. Add Strings 
 str1 = "Mayur"
 str2 = "Deshmukh"
 print (str1+str2)
-
+----------------
 10. Replace strings 
 name = "Hello I am Mayur"
 var = name.replace("l", "d")
@@ -84,3 +86,8 @@ print(var)
 name = "Hello I am Mayur"
 var = name.replace(" ", "\n")
 print(var)
+-----------------
+
+11. list in python
+mayur = [1,2,3,4,5,6,7]
+print (mayur[2])
