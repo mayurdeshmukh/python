@@ -1,3 +1,7 @@
 Difference between list and tuples
 
 Items of tuples can not be changes while items of list can be chnaged
+
+tuple denoted by mayur= ()
+list denoted by mayur = []
+
