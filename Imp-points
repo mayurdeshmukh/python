@@ -70,3 +70,17 @@ print (var)
 name = "Mayur"
 var = name.lower()
 print (var)
+
+9. Add Strings 
+str1 = "Mayur"
+str2 = "Deshmukh"
+print (str1+str2)
+
+10. Replace strings 
+name = "Hello I am Mayur"
+var = name.replace("l", "d")
+print(var)
+
+name = "Hello I am Mayur"
+var = name.replace(" ", "\n")
+print(var)
