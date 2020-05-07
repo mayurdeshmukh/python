@@ -91,3 +91,29 @@ print(var)
 11. list in python
 mayur = [1,2,3,4,5,6,7]
 print (mayur[2])
+
+12. Tuples in python 
+mayur = ("hi", "I", "am" )
+print(type(mayur))
+print(mayur)
+
+13 Sets in python
+mayur = {1,2,3,4,5,6,7,8}
+print(type(mayur))
+print(mayur)
+print(len(mayur))
+mayur.discard(8)
+print(mayur)
+
+14. Dictionary in python
+dictMayur = {
+    "Name": "Mayur",
+    "City": "Indore",
+    "Age": 24
+}
+
+print(dictMayur["Name"])
+
+dictMayur["Age"] = 25
+
+print(dictMayur)
