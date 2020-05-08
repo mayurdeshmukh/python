@@ -1,0 +1,13 @@
+** Enter data into file
+
+print("Enter the range which you want to enter in file")
+a = int(input("Enter start range\n"))
+b = int(input("Enter last number of range\n"))
+
+f = open("name.txt", "w")
+for i in range(a,b):
+   var = str(i)
+   f.write(var)
+f.close()
+
+-------------------------------
