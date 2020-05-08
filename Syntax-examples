@@ -91,12 +91,12 @@ print(var)
 11. list in python
 mayur = [1,2,3,4,5,6,7]
 print (mayur[2])
-
+---------
 12. Tuples in python 
 mayur = ("hi", "I", "am" )
 print(type(mayur))
 print(mayur)
-
+--------------
 13 Sets in python
 mayur = {1,2,3,4,5,6,7,8}
 print(type(mayur))
@@ -104,7 +104,7 @@ print(mayur)
 print(len(mayur))
 mayur.discard(8)
 print(mayur)
-
+------------
 14. Dictionary in python
 dictMayur = {
     "Name": "Mayur",
@@ -118,7 +118,7 @@ dictMayur["Age"] = 25
 
 print(dictMayur)
 
-
+----------------
 15. If else and take input from user
 
 a = input("Enter the Number/n")
@@ -131,3 +131,12 @@ elif(a==20):
 
 else:
   print("Enter Number again")
+------------------  
+ 16. Looping in Python
+ for i in range(1,100):
+    print(i)
+
+mayur = ["hi", "i", "am", "mayur"]
+for i in mayur:
+    print(i)
+---------------
