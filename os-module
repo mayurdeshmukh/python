@@ -1,0 +1,11 @@
+Os module examples : 
+import os
+#get current working directory
+print(os.getcwd())
+
+#change current working directoy 
+os.chdir("/home")
+print(os.getcwd())
+
+# list files in dir
+print(os.listdir("/home/mayur/Desktop/Python"))
