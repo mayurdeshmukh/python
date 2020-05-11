@@ -9,3 +9,12 @@ print(os.getcwd())
 
 # list files in dir
 print(os.listdir("/home/mayur/Desktop/Python"))
+
+
+# create dir 
+os.mkdir("/home/mayur/Desktop/test")
+print(os.listdir("/home/mayur/Desktop/"))
+
+# Create parent as well as child directory
+os.mkdirs("/home/mayur/Desktop/test/mayur")
+print(os.listdir("/home/mayur/Desktop/test"))
