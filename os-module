@@ -1,4 +1,8 @@
 Os module examples : 
+This module can do following things
+Change directories, make new directories including child and parent, rename files, list the items within directories
+
+
 import os
 #get current working directory
 print(os.getcwd())
@@ -18,3 +22,6 @@ print(os.listdir("/home/mayur/Desktop/"))
 # Create parent as well as child directory
 os.mkdirs("/home/mayur/Desktop/test/mayur")
 print(os.listdir("/home/mayur/Desktop/test"))
+
+#rename file 
+os.rename("/home/mayur/Desktop/test.txt", "/home/mayur/Desktop/mayur.txt")
