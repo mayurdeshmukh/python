@@ -1,0 +1,14 @@
+"""The first step is to create an SMTP object, each object is used for connection 
+with one server."""
+
+
+import smtplib,ssl
+s=smtplib.SMTP("smtp.gmail.com", 587)
+s.ehlo()
+s.starttls()
+s.login("abcs@gmail.com", "pass")
+
+
+#Send the mail
+msg = "Hey , I am sending this mail using Python" 
+s.sendmail("abcs@gmail.com", "receiver@gmail.com", msg)
