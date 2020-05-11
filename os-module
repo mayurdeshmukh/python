@@ -1,7 +1,7 @@
 Os module examples : 
 This module can do following things
 Change directories, make new directories including child and parent, rename files, list the items within directories, join two paths 
-in optimal ways
+in optimal ways, check files and dire prensent or not
 
 
 
@@ -31,4 +31,6 @@ os.rename("/home/mayur/Desktop/test.txt", "/home/mayur/Desktop/mayur.txt")
 #check if path is exist or not
 print(os.path.exists("/home/mayur/Desktop"))
 
+# check whether it is file or not
+print(os.path.isfile("/home/mayur/Desktop/mayur.txt"))
 
