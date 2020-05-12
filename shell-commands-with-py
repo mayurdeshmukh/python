@@ -1,0 +1,15 @@
+import os
+cmd = "df -h"
+print(os.system(cmd))
+
+cmd = "cat /etc/passwd"
+print(os.system(cmd))
+
+import subprocess
+cmd = "uname -r"
+value = subprocess.call(cmd, shell=True)
+print(value)
+
+cmd = "df -h"
+value = subprocess.call(cmd, shell=True)
+print(value)
