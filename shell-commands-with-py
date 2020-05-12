@@ -13,3 +13,17 @@ print(value)
 cmd = "df -h"
 value = subprocess.call(cmd, shell=True)
 print(value)
+
+-------------- Checking disk space with python---------------------
+
+import subprocess
+
+cmd = "df -h | awk 'FNR == 4 {print $3}'"
+value = subprocess.call(cmd, shell=True)
+print(value)
+if (value <= 10):
+    print("Sapce is low")
+
+else:
+    print("Disk is available") 
+
