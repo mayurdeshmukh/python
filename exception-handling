@@ -1,0 +1,19 @@
+input1= input("Enter First Number\n")
+input2 = input("Enter Second Number\n")
+
+#First this block will execute
+try:
+    sum = int(input1)+int(input2)
+    print(sum)
+    
+#If exception occurs it will go in except block it will catch the exception and print it
+except  Exception as mayur:
+    print(mayur)
+
+#This section occurs if no exception occurs
+else:
+    print("This will execute when no exception occurs")
+    
+#This will execute in any case whether exception occurs or not.    
+finally:
+    print("Hey I am mayur")
