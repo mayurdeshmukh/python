@@ -7,3 +7,16 @@ if(age>=18):
 
 else:
     print("You are not eligible to open this site")
+    
+Download file using Wget
+import wget
+age = int(input("Enter your Age\n"))
+if(age>=18):
+    print("You are eligible to open this site")
+#    import webbrowser
+#   webbrowser.open('http://google.com')
+    url = "https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war" 
+    wget.download(url, '/home/mayur/Download')
+
+else:
+    print("You are not eligible to open this site")
