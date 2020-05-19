@@ -1,0 +1,9 @@
+Example 1
+age = int(input("Enter your Age"))
+if(age>=18):
+    print("You are eligible to open this site")
+    import webbrowser
+    webbrowser.open('http://google.com') 
+
+else:
+    print("You are not eligible to open this site")
